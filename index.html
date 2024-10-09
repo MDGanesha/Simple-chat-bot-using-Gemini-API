@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <!-- header greetings -->
+            <h2 class="title">Hello there</h2>
+            <h4 class="subtitle">How can i help you today?</h4>
+
+            <!-- suggetions list -->
+            <ul class="suggetions-list">
+                <li class="suggestion">
+                    <h4 class="text">
+                        Help me plan a game night with 5 best friends for $100.
+                    </h4>
+
+                    <span class="icon material-symbols-outlined"> draw </span>
+                </li>
+                <li class="suggestion">
+                    <h4 class="text">
+                        What are the best tips to imporove my public speaking
+                        skills?
+                    </h4>
+                    <span class="icon material-symbols-outlined">
+                        lightbulb
+                    </span>
+                </li>
+                <li class="suggestion">
+                    <h4 class="text">
+                        Can you help me find the latest news on web development?
+                    </h4>
+                    <span class="icon material-symbols-outlined">
+                        explore
+                    </span>
+                </li>
+                <li class="suggestion">
+                    <h4 class="text">
+                        Write code in javascript to sum all elements in an
+                        Array.
+                    </h4>
+                    <span class="icon material-symbols-outlined"> code </span>
+                </li>
+            </ul>
+        </header>
+        <div class="chat-list">
+            <!-- <div class="message outgoing">
+                <div class="message-content">
+                    <img src="image/user.jpg" alt="User Image" class="avtar" />
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="message incomming laoding">
+                <div class="message-content">
+                    <img
+                        src="image/gemini.svg"
+                        alt="User Image"
+                        class="avtar"
+                    />
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="loading-indicator">
+                        <div class="loading-bar"></div>
+                        <div class="loading-bar"></div>
+                        <div class="loading-bar"></div>
+                    </div>
+                </div>  -->                 
+                <button class="icon material-symbols-outlined">
+                    content_copy
+                </button>
+            </div>
+        </div>
+        <div class="typing-area">
+            <form action="#" class="typing-form">
+                <div class="input-wrapper">
+                    <input
+                        type="text"
+                        placeholder="Enter a prompt here"
+                        class="typing-input"
+                        required
+                    />
+                    <button class="icon material-symbols-outlined">send</button>
+                </div>
+                <div class="action-buttons">
+                    <button class="icon material-symbols-outlined">
+                        delete
+                    </button>
+                </div>
+            </form>
+            <p class="disclaimer-text">
+                This chat bot may display inaccurate info, including about people, so
+                double-check its responses.
+            </p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
